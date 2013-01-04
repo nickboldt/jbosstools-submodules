@@ -1,0 +1,21 @@
+[submodule "base"]
+	path = base
+	url = git://github.com/jbosstools/jbosstools-base.git
+[submodule "server"]
+	path = server
+	url = git://github.com/jbosstools/jbosstools-server.git
+[submodule "xulrunner"]
+	path = xulrunner
+	url = git://github.com/jbosstools/jbosstools-xulrunner.git
+[submodule "jst"]
+	path = jst
+	url = git://github.com/jbosstools/jbosstools-jst.git
+[submodule "vpe"]
+	path = vpe
+	url = git://github.com/jbosstools/jbosstools-vpe.git
+[submodule "hibernate"]
+	path = hibernate
+	url = git://github.com/jbosstools/jbosstools-hibernate.git
+[submodule "javaee"]
+	path = javaee
+	url = git://github.com/jbosstools/jbosstools-javaee.git
