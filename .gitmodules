@@ -1,6 +1,6 @@
 [submodule "base"]
 	path = base
-	url = git://github.com/dgolovin/jbosstools-base.git
+	url = git://github.com/jbosstools/jbosstools-base.git
 [submodule "server"]
 	path = server
 	url = git://github.com/jbosstools/jbosstools-server.git
