@@ -22,3 +22,42 @@
 [submodule "forge"]
 	path = forge
 	url = git://github.com/jbosstools/jbosstools-forge.git
+[submodule "openshift"]
+	path = openshift
+	url = git://github.com/jbosstools/jbosstools-openshift.git
+[submodule "gwt"]
+	path = gwt
+	url = git://github.com/jbosstools/jbosstools-gwt.git
+[submodule "build"]
+	path = build
+	url = git://github.com/jbosstools/jbosstools-build.git
+[submodule "webservices"]
+	path = webservices
+	url = git://github.com/jbosstools/jbosstools-webservices.git
+[submodule "central"]
+	path = central
+	url = git://github.com/jbosstools/jbosstools-central.git
+[submodule "maven-plugins"]
+	path = maven-plugins
+	url = git://github.com/jbosstools/jbosstools-maven-plugins.git
+[submodule "runtime-soa"]
+	path = runtime-soa
+	url = git://github.com/jbosstools/jbosstools-runtime-soa.git
+[submodule "portlet"]
+	path = portlet
+	url = git://github.com/jbosstools/jbosstools-portlet.git
+[submodule "jbpm"]
+	path = jbpm
+	url = git://github.com/jbosstools/jbosstools-jbpm.git
+[submodule "freemarker"]
+	path = freemarker
+	url = git://github.com/jbosstools/jbosstools-freemarker.git
+[submodule "esb"]
+	path = esb
+	url = git://github.com/jbosstools/jbosstools-esb.git
+[submodule "birt"]
+	path = birt
+	url = git://github.com/jbosstools/jbosstools-birt.git
+[submodule "bpel"]
+	path = bpel
+	url = git://github.com/jbosstools/jbosstools-bpel.git
