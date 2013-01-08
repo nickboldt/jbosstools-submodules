@@ -28,9 +28,6 @@
 [submodule "gwt"]
 	path = gwt
 	url = git://github.com/jbosstools/jbosstools-gwt.git
-[submodule "build"]
-	path = build
-	url = git://github.com/jbosstools/jbosstools-build.git
 [submodule "webservices"]
 	path = webservices
 	url = git://github.com/jbosstools/jbosstools-webservices.git
@@ -61,3 +58,6 @@
 [submodule "bpel"]
 	path = bpel
 	url = git://github.com/jbosstools/jbosstools-bpel.git
+[submodule "jbosstools-build"]
+	path = jbosstools-build
+	url = git://github.com/jbosstools/jbosstools-build.git
