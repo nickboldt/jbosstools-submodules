@@ -7,13 +7,24 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>maven-plugins/tycho-plugins</module>
 		<module>base</module>
-		<module>server</module>
-		<module>hibernate</module>
-		<module>xulrunner</module>
-		<module>jst</module>
-		<module>vpe</module>
+		<module>birt</module>
+		<!-- module>bpel</module-->
+		<module>central</module>
+		<module>esb</module>
+		<module>forge</module>
+		<module>freemarker</module>
+		<module>gwt</module>
+		<module>hibernate</module>		
 		<module>javaee</module>
+		<!-- module>jbpm</module-->
+		<module>jst</module>
+		<module>openshift</module>
+		<module>portlet</module>
+		<!-- module>runtime-soa</module-->
+		<module>server</module>
+		<module>vpe</module>
+		<module>webservices</module>
+		<module>xulrunner</module>
 	</modules>
 </project>
