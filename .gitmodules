@@ -1,63 +1,87 @@
 [submodule "base"]
 	path = base
 	url = git://github.com/jbosstools/jbosstools-base.git
+	branch = master
 [submodule "server"]
 	path = server
 	url = git://github.com/jbosstools/jbosstools-server.git
+	branch = master
 [submodule "xulrunner"]
 	path = xulrunner
 	url = git://github.com/jbosstools/jbosstools-xulrunner.git
+	branch = master
 [submodule "jst"]
 	path = jst
 	url = git://github.com/jbosstools/jbosstools-jst.git
+	branch = master
 [submodule "vpe"]
 	path = vpe
 	url = git://github.com/jbosstools/jbosstools-vpe.git
+	branch = master
 [submodule "hibernate"]
 	path = hibernate
 	url = git://github.com/jbosstools/jbosstools-hibernate.git
+	branch = master
 [submodule "javaee"]
 	path = javaee
 	url = git://github.com/jbosstools/jbosstools-javaee.git
+	branch = master
 [submodule "forge"]
 	path = forge
 	url = git://github.com/jbosstools/jbosstools-forge.git
+	branch = master
 [submodule "openshift"]
 	path = openshift
 	url = git://github.com/jbosstools/jbosstools-openshift.git
+	branch = master
 [submodule "gwt"]
 	path = gwt
 	url = git://github.com/jbosstools/jbosstools-gwt.git
+	branch = master
 [submodule "webservices"]
 	path = webservices
 	url = git://github.com/jbosstools/jbosstools-webservices.git
+	branch = master
 [submodule "central"]
 	path = central
 	url = git://github.com/jbosstools/jbosstools-central.git
+	branch = master
 [submodule "maven-plugins"]
 	path = maven-plugins
 	url = git://github.com/jbosstools/jbosstools-maven-plugins.git
-[submodule "runtime-soa"]
-	path = runtime-soa
-	url = git://github.com/jbosstools/jbosstools-runtime-soa.git
+	branch = master
 [submodule "portlet"]
 	path = portlet
 	url = git://github.com/jbosstools/jbosstools-portlet.git
-[submodule "jbpm"]
-	path = jbpm
-	url = git://github.com/jbosstools/jbosstools-jbpm.git
+	branch = master
 [submodule "freemarker"]
 	path = freemarker
 	url = git://github.com/jbosstools/jbosstools-freemarker.git
-[submodule "esb"]
-	path = esb
-	url = git://github.com/jbosstools/jbosstools-esb.git
+	branch = master
 [submodule "birt"]
 	path = birt
 	url = git://github.com/jbosstools/jbosstools-birt.git
-[submodule "bpel"]
-	path = bpel
-	url = git://github.com/jbosstools/jbosstools-bpel.git
+	branch = master
 [submodule "jbosstools-build"]
 	path = jbosstools-build
 	url = git://github.com/jbosstools/jbosstools-build.git
+	branch = master
+
+# no longer in JBT 
+
+[submodule "runtime-soa"]
+  path = runtime-soa
+  url = git://github.com/jbosstools/jbosstools-runtime-soa.git
+	branch = master
+[submodule "jbpm"]
+  path = jbpm
+  url = git://github.com/jbosstools/jbosstools-jbpm.git
+	branch = master
+[submodule "esb"]
+  path = esb
+  url = git://github.com/jbosstools/jbosstools-esb.git
+	branch = master
+[submodule "bpel"]
+  path = bpel
+  url = git://github.com/jbosstools/jbosstools-bpel.git
+	branch = master
