@@ -1,0 +1,43 @@
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.jboss.tools</groupId>
+	<artifactId>submodules</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<modules>
+		
+		<!-- active projects -->
+		<module>jbosstools-aerogear</module>
+		<module>jbosstools-arquillian</module>
+		<module>jbosstools-base</module>
+		<module>jbosstools-central</module>
+		<module>jbosstools-forge</module>
+		<module>jbosstools-hibernate</module>		
+		<module>jbosstools-javaee</module>
+		<module>jbosstools-jst</module>
+		<module>jbosstools-livereload</module>
+		<module>jbosstools-openshift</module>
+		<module>jbosstools-portlet</module>
+		<module>jbosstools-server</module>
+		<module>jbosstools-vpe</module>
+		<module>jbosstools-webservices</module>
+
+		<!-- unchanged since previous release; no need to rebuild yet -->
+		<!--<module>jbosstools-birt</module>-->
+		<!--<module>jbosstools-freemarker</module>-->
+		<!--<module>jbosstools-gwt</module> -->
+		<!--<module>jbosstools-xulrunner</module>-->
+
+		<!-- released to Nexus, no need to rebuild -->
+		<!--<module>jbosstools-maven-plugins</module>-->
+
+		<!-- no longer in JBT; moved to JBTIS -->
+		<!--<module>jbosstools-bpel</module>-->
+		<!--<module>jbosstools-esb</module>-->
+		<!--<module>jbosstools-jbpm</module>-->
+		<!--<module>jbosstools-runtime-soa</module>-->
+
+	</modules>
+</project>
