@@ -7,24 +7,37 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>../base</module>
-		<module>../birt</module>
-		<!-- module>bpel</module-->
-		<module>../central</module>
-		<!--module>../esb</module-->
-		<module>../forge</module>
-		<module>../freemarker</module>
-		<module>../gwt</module>
-		<module>../hibernate</module>		
-		<module>../javaee</module>
-		<!-- module>jbpm</module-->
-		<module>../jst</module>
-		<module>../openshift</module>
-		<module>../portlet</module>
-		<!-- module>runtime-soa</module-->
-		<module>../server</module>
-		<module>../vpe</module>
-		<module>../webservices</module>
-		<module>../xulrunner</module>
+		
+		<!-- active projects -->
+		<module>../jbosstools-jbosstools-aerogear</module>
+		<module>../jbosstools-jbosstools-arquillian</module>
+		<module>../jbosstools-jbosstools-base</module>
+		<module>../jbosstools-jbosstools-central</module>
+		<module>../jbosstools-jbosstools-forge</module>
+		<module>../jbosstools-jbosstools-hibernate</module>		
+		<module>../jbosstools-jbosstools-javaee</module>
+		<module>../jbosstools-jbosstools-jst</module>
+		<module>../jbosstools-jbosstools-livereload</module>
+		<module>../jbosstools-jbosstools-openshift</module>
+		<module>../jbosstools-jbosstools-portlet</module>
+		<module>../jbosstools-jbosstools-server</module>
+		<module>../jbosstools-jbosstools-vpe</module>
+		<module>../jbosstools-jbosstools-webservices</module>
+
+		<!-- unchanged since previous release; no need to rebuild yet -->
+		<!--<module>../jbosstools-jbosstools-birt</module>-->
+		<!--<module>../jbosstools-jbosstools-freemarker</module>-->
+		<!--<module>../jbosstools-jbosstools-gwt</module> -->
+		<!--<module>../jbosstools-jbosstools-xulrunner</module>-->
+
+		<!-- released to Nexus, no need to rebuild -->
+		<!--<module>../jbosstools-maven-plugins</module>-->
+
+		<!-- no longer in JBT; moved to JBTIS -->
+		<!--<module>../jbosstools-bpel</module>-->
+		<!--<module>../jbosstools-esb</module>-->
+		<!--<module>../jbosstools-jbpm</module>-->
+		<!--<module>../jbosstools-runtime-soa</module>-->
+
 	</modules>
 </project>
